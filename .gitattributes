@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.cpp filter=lfs diff=lfs merge=lfs -text
+CppProject.sln filter=lfs diff=lfs merge=lfs -text
+CppProject.uproject filter=lfs diff=lfs merge=lfs -text
